@@ -9,66 +9,85 @@
 
 
 
-p,h1,h2,h3,h4,h5,h6{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
-.txt-19{
+
+.txt-19 {
     font-size: 19px;
 }
-.txt-18{
+
+.txt-18 {
     font-size: 18px;
 }
-.txt-17{
+
+.txt-17 {
     font-size: 17px;
 }
-.txt-65{
+
+.txt-65 {
     font-size: 65px;
 }
-.font-family{
+
+.font-family {
     font-family: "Poppins", sans-serif;
 }
-.font-family-cormorant{
+
+.font-family-cormorant {
     font-family: "Cormorant", serif
 }
-.line{
+
+.line {
     background-color: #FFFFFF;
     width: 100%;
     height: 1px;
 }
-.btn{
+
+.btn {
     --bs-border-radius: none;
 }
-.line-short{
+
+.line-short {
     background-color: #111;
     width: 70px;
     height: 2px;
 }
-.link-deco{
+
+.link-deco {
     text-decoration: underline;
 }
 
-@media (min-width: 991.98px){
-    .about-us .about{
+@media (min-width: 991.98px) {
+    .about-us .about {
         max-width: 70%;
     }
-    .about-us .about>p{
+
+    .about-us .about>p {
         max-width: 80%;
     }
 }
 
-@media (max-width: 1199.98px){
-    .about-us .d-not{
+@media (max-width: 1199.98px) {
+    .about-us .d-not {
         display: none;
     }
 }
 
-.courses .course>img{
+.courses .course>img {
     max-width: 100%;
 }
-.courses .course{
+
+.courses .course {
     margin-bottom: 150px;
 }
-.courses .course .box{
+
+.courses .course .box {
     max-width: 85%;
     left: 32px;
     top: 70%;
@@ -77,17 +96,19 @@ p,h1,h2,h3,h4,h5,h6{
 
 
 
-.choose-us .poster div{
+.choose-us .poster div {
     width: 50%;
 }
-.choose-us .poster{
+
+.choose-us .poster {
     position: absolute;
     top: 80%;
     left: 10%;
     right: 0;
 }
-@media (max-width: 1400px){
-    .choose-us .poster{
+
+@media (max-width: 1400px) {
+    .choose-us .poster {
         position: relative;
         left: 0;
         margin-top: 40px;
@@ -95,14 +116,15 @@ p,h1,h2,h3,h4,h5,h6{
 }
 
 
-.about-us .text-card{
+.about-us .text-card {
     width: 40%;
     position: absolute;
     top: 76%;
     right: 12%;
 }
-@media(max-width: 991.98px){
-    .about-us .text-card{
+
+@media(max-width: 991.98px) {
+    .about-us .text-card {
         position: relative;
         top: 0;
         right: 0;
@@ -115,11 +137,11 @@ p,h1,h2,h3,h4,h5,h6{
 
 .custom-header-bg {
     position: relative;
-   
-    background: 
-       
+
+    background:
+
         url('./../images/Page\ Heading.png') center top / cover no-repeat;
-    min-height: 400px; 
+    min-height: 400px;
 }
 
 
@@ -131,5 +153,31 @@ p,h1,h2,h3,h4,h5,h6{
 .custom-nav-links .nav-link,
 .custom-header-bg .text-light-var {
 
-    color: var(--light, #FFF) !important; 
+    color: var(--light, #FFF) !important;
+}
+
+
+
+
+
+
+
+.nav-heading { 
+    position: relative;
+    min-height: 400px;
+    
+    
+    background:
+        url('./../images/page2.png') center top / cover no-repeat;
+
+}
+
+
+.custom-toggler-icon {
+    filter: invert(100%);
+}
+
+.custom-z-index-content {
+    position: relative;
+    z-index: 10;
 }
