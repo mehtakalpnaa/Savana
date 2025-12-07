@@ -93,3 +93,43 @@ p,h1,h2,h3,h4,h5,h6{
         margin-top: 40px;
     }
 }
+
+
+.about-us .text-card{
+    width: 40%;
+    position: absolute;
+    top: 76%;
+    right: 12%;
+}
+@media(max-width: 991.98px){
+    .about-us .text-card{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+.custom-header-bg {
+    position: relative;
+   
+    background: 
+       
+        url('./../images/Page\ Heading.png') center top / cover no-repeat;
+    min-height: 400px; 
+}
+
+
+.custom-z-index-content {
+    position: relative;
+    z-index: 10;
+}
+
+.custom-nav-links .nav-link,
+.custom-header-bg .text-light-var {
+
+    color: var(--light, #FFF) !important; 
+}
